@@ -1,0 +1,75 @@
+div.meme-gen-root{
+    background-color: #f4f4f4;
+    border-radius: 4pt;    
+    
+}
+
+.meme-gen-edit{
+    display: table;
+    width: 100%;
+}
+
+div.meme-gen-root .meme-image-place, div.meme-gen-root .meme-fields-place{
+    display: table-cell;
+    padding: 2px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+
+div.meme-gen-root .meme-gen-img-preview{
+    background-color: #FFFFFF;
+    border:dashed 1px black;
+    padding: 10px;
+    border-radius: 4pt;
+    height: 100px;
+    width: 170px;
+    font-size: 20px;
+    
+}
+
+
+
+div.meme-gen-root .meme-fields-place > input[type=text]{
+    width: 95%;
+
+}
+
+div.meme-gen-root .meme-fields-place *{
+    margin: 5px;
+
+}
+
+div.meme-gen-root .meme-image-place{
+    min-width: 200px;
+    text-align: center;
+    padding-left: 64px;
+    max-width: 200px;
+    vertical-align: middle;
+    padding-bottom: 44px;
+}
+
+.table-row{
+    display: inline-table;
+}
+
+.table-cell{
+    display: inline-block;
+    border: solid 5px #FFFFFF;
+}
+
+@media only screen and (max-width : 1000px) {
+    .meme-gen-edit{
+        display: block;
+        
+    }
+    
+    div.meme-gen-root .meme-image-place, div.meme-gen-root .meme-fields-place{
+        display: block;
+    }
+
+    div.meme-gen-root .meme-gen-img-preview{
+        margin: 0;
+    }
+}
