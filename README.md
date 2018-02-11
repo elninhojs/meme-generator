@@ -1,14 +1,14 @@
+## Meme Generator in React ES6
+
 This project is just a Meme-generator and is possible to publish the generated meme on LinkedIn.
 This current version is mocked to run locally.
 
 To see the DEMO page just follow this link:
- [Create React App](https://g4ninh0.000webhostapp.com/react/meme-generator/index.html).
+ [DEMO](https://g4ninh0.000webhostapp.com/react/meme-generator/index.html).
 
 Below you will find some information on how to perform common tasks.<br>
 
-## Folder Structure
-
-After creation, your project should look like this:
+## Project Folder Structure
 
 ```
 my-app/
